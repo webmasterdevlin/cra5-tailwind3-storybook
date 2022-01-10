@@ -20,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +43,13 @@
     ]
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^6.4.10",
+    "@storybook/addon-links": "^6.4.10",
+    "@storybook/addons": "^5.3.22",
+    "@storybook/builder-webpack5": "^6.4.10",
+    "@storybook/manager-webpack5": "^6.4.10",
+    "@storybook/preset-create-react-app": "^4.0.0",
+    "@storybook/react": "^6.4.10",
     "@types/tailwindcss": "^3.0.2"
   }
 }

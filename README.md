@@ -1,6 +1,9 @@
 # CRA 5, Tailwind 3, Storybook 5
 
-- Tailwind is now by default built
+## What's new in CRA 5?
+
+- builtin tailwind
+- webpack 5
 
 ### Getting started with Tailwind
 
@@ -19,4 +22,19 @@ $ npx tailwindcss init -p
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
+
+### Getting started with Storybook
+
+- run the following
+
+```bash
+$ npx sb init
+$ npm i -D @storybook/builder-webpack5 @storybook/manager-webpack5
+```
+
+- update .storybook/main.js
+
+```bash
+$ npm run storybook
 ```
